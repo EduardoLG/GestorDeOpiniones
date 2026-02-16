@@ -10,6 +10,7 @@ import { dbConnection } from './db.js';
 import userRoutes from '../src/user/user.routes.js'
 import publicationRoutes from '../src/publication/publication.routres.js'
 import commentRoutes from '../src/comments/comments.routes.js'
+import registerRoutes from '../src/register/register.routes.js'
 
 const BASE_URL = '/gestorDeOpiniones/v1';
 
@@ -24,6 +25,7 @@ const routes = (app) => {
     app.use(`${BASE_URL}/users`, userRoutes);
     app.use(`${BASE_URL}/publications`, publicationRoutes);
     app.use(`${BASE_URL}/comments`, commentRoutes);
+    app.use(`${BASE_URL}/login`, registerRoutes);
 }
 
 const initServer = async (app) => {

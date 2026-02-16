@@ -3,6 +3,6 @@ import { login } from "./controller.register.js";
 
 const api = Router();
 
-api.post('/login', login);
+api.post('/', login);
 
 export default api;
