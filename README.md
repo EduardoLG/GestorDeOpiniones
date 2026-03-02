@@ -121,29 +121,6 @@ npm list
 - Separación de concerns
 - Fácil mantenimiento y escalabilidad
 
-### Agregar Nuevas Funcionalidades
-1. Crea un nuevo directorio en `src/` con el nombre de la funcionalidad
-2. Implementa los controladores y rutas necesarias
-3. Integra con `index.js` si es necesario
-4. Actualiza la colección de Postman con los nuevos endpoints
-
-## 📝 Notas Académicas
-
-Este proyecto es una actividad en clase que demuestra:
-- Creación de APIs REST con Node.js
-- Arquitectura de aplicaciones backend
-- Buenas prácticas en desarrollo JavaScript
-- Gestión de dependencias con npm
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Para cambios importantes:
-1. Fork el proyecto
-2. Crea una rama para tu funcionalidad (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
 ## 📄 Licencia
 
 Este proyecto está bajo la licencia MIT. Ver el archivo `LICENSE` para más detalles.
